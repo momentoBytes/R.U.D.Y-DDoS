@@ -68,10 +68,18 @@ tor
 Clone the repository from GitHub or save the script locally.
 
 ```
-git clone https://github.com//rudy-tool.git  
-cd rudy-tool
 
+git clone https://github.com/momentoBytes/R.U.D.Y-DDoS
 
+```
+### Step 6: Step 6: Run the Script
+
+Execute the script using Python.
+
+```
+python3 R.U.D.Y-DDoS.py
+```
+The script will prompt you to input the target IP/URL and port number.
 
 
 
