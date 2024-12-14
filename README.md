@@ -32,4 +32,47 @@ Accepts target IP/URL and port directly from the user.
 
 Clear prompts to guide the user through the setup process.
 
+# Installation 
+
+### Step 1: Update Termux
+```bash
+pkg update && pkg upgrade
+
+```
+### Step 2: Install Python and Dependencies
+
+Install Python and the required libraries for the script.
+
+```
+
+pkg install python  
+pkg install python3  
+pip install requests stem pysocks
+
+```
+### Step 3: Install Tor
+
+Install the Tor service to route traffic through the SOCKS5 proxy.
+```
+pkg install tor
+```
+### Step 4: Start Tor Service
+
+Run the Tor service and keep it active in the background.
+
+```
+tor
+```
+### Step 5: Download the Script
+
+Clone the repository from GitHub or save the script locally.
+
+```
+git clone https://github.com//rudy-tool.git  
+cd rudy-tool
+
+
+
+
+
 
