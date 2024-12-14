@@ -77,7 +77,7 @@ git clone https://github.com/momentoBytes/R.U.D.Y-DDoS
 Execute the script using Python.
 
 ```
-python3 R.U.D.Y-DDoS.py
+python3 Rudy.py
 ```
 The script will prompt you to input the target IP/URL and port number.
 
